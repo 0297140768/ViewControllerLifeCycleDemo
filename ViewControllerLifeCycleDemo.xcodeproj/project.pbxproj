@@ -14,6 +14,8 @@
 		95046D05213F029E00A4D9B3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95046D04213F029E00A4D9B3 /* FirstViewController.swift */; };
 		95046D07213F02AD00A4D9B3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95046D06213F02AD00A4D9B3 /* SecondViewController.swift */; };
 		95046D09213F02CB00A4D9B3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95046D08213F02CB00A4D9B3 /* ThirdViewController.swift */; };
+		95F6F5742149223D00BD2141 /* TextCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6F5732149223D00BD2141 /* TextCollector.swift */; };
+		95F6F5762149242000BD2141 /* ViewControllerForDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F6F5752149242000BD2141 /* ViewControllerForDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		95046D04213F029E00A4D9B3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		95046D06213F02AD00A4D9B3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		95046D08213F02CB00A4D9B3 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		95F6F5732149223D00BD2141 /* TextCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollector.swift; sourceTree = "<group>"; };
+		95F6F5752149242000BD2141 /* ViewControllerForDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				95046D04213F029E00A4D9B3 /* FirstViewController.swift */,
 				95046D06213F02AD00A4D9B3 /* SecondViewController.swift */,
 				95046D08213F02CB00A4D9B3 /* ThirdViewController.swift */,
+				95F6F5732149223D00BD2141 /* TextCollector.swift */,
+				95F6F5752149242000BD2141 /* ViewControllerForDemo.swift */,
 				95046CF6213F024300A4D9B3 /* Main.storyboard */,
 				95046CF9213F024400A4D9B3 /* Assets.xcassets */,
 				95046CFB213F024400A4D9B3 /* LaunchScreen.storyboard */,
@@ -102,6 +108,7 @@
 				TargetAttributes = {
 					95046CEE213F024300A4D9B3 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -142,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95046D07213F02AD00A4D9B3 /* SecondViewController.swift in Sources */,
+				95F6F5762149242000BD2141 /* ViewControllerForDemo.swift in Sources */,
 				95046CF3213F024300A4D9B3 /* AppDelegate.swift in Sources */,
+				95F6F5742149223D00BD2141 /* TextCollector.swift in Sources */,
 				95046D09213F02CB00A4D9B3 /* ThirdViewController.swift in Sources */,
 				95046D05213F029E00A4D9B3 /* FirstViewController.swift in Sources */,
 			);
@@ -296,7 +305,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tatsiana.ViewControllerLifeCycleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -313,7 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tatsiana.ViewControllerLifeCycleDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
